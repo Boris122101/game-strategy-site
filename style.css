@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367f');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #f4f4f4;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #00ffe7;
+}
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+#searchInput {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+.content-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.strategy {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 255, 231, 0.3);
+  transition: transform 0.3s ease;
+}
+.strategy:hover {
+  transform: scale(1.05);
+}
+.strategy-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.strategy h2 {
+  color: #00ffe7;
+  font-size: 20px;
+  margin: 0;
+}
+.strategy p {
+  color: #ddd;
+  font-size: 14px;
+}
+.game-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 2px;
+}
